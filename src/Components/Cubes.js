@@ -1,8 +1,8 @@
 import React from 'react';
-import { useStore } from '../hooks/useStore';
-import { useInterval } from '../hooks/useInterval';
+import { useStore } from '../Hooks/useStore';
+import { useInterval } from '../Hooks/useInterval';
 
-import Cube from './Cube';
+import {Cube} from './Cube';
 
 export default function Cubes() {
   const [cubes, addCube, removeCube, saveWorld] = useStore((state) => [

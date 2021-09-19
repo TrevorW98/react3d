@@ -3,7 +3,7 @@ import { PointerLockControls as PointerLockControlsImpl } from 'three/examples/j
 import { useThree, extend } from 'react-three-fiber';
 import { useRef } from 'react';
 
-//extend({ PointerLockControlsImpl });
+extend({ PointerLockControlsImpl });
 
 export const FPVControls = (props) => {
   const { camera, gl } = useThree();

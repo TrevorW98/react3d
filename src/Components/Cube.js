@@ -53,7 +53,7 @@ const Cube = ({ position, texture, addCube, removeCube }) => {
         }
       }}
     >
-        <boxBufferGeometry attach="geometry" /> <meshStandardMaterial attach="material" map={textures[texture]} color={hover!=null ? 'gray' : color} opacity={texture === 'glass' ? 0.7 : 1} transparent={true} />
+      <boxBufferGeometry attach="geometry" /> <meshStandardMaterial attach="material" map={textures[texture]} color={hover != null ? 'gray' : color} opacity={texture === 'glass' ? 0.7 : 1} transparent={true} />
     </mesh>
   );
 };
@@ -67,4 +67,4 @@ function equalProps(prevProps, nextProps) {
   return equalPosition && prevProps.texture === nextProps.texture;
 }
 
-export {Cube, equalProps};
+export { Cube, equalProps };

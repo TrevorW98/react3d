@@ -3,7 +3,7 @@ import grassImg from './Images/grass.jpg';
 import glassImg from './Images/glass.png';
 import logImg from './Images/log.jpg';
 import woodImg from './Images/wood.png';
-import { TextureLoader, NearestFilter, LinearMipMapLinearFilter  } from 'three';
+import { TextureLoader, NearestFilter, LinearMipMapLinearFilter } from 'three';
 
 export const dirt = new TextureLoader().load(dirtImg);
 export const grass = new TextureLoader().load(grassImg);
