@@ -12226,7 +12226,7 @@
   "resolved" "https://registry.npmjs.org/zstddec/-/zstddec-0.0.2.tgz"
   "version" "0.0.2"
 
-"zustand@^3.5.1":
+"zustand@^3.5.1", "zustand@^3.5.10":
   "integrity" "sha512-upluvSRWrlCiExu2UbkuMIPJ9AigyjRFoO7O9eUossIj7rPPq7pcJ0NKk6t2P7KF80tg/UdPX6/pNKOSbs9DEg=="
   "resolved" "https://registry.npmjs.org/zustand/-/zustand-3.5.10.tgz"
   "version" "3.5.10"
